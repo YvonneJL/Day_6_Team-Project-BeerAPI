@@ -7,7 +7,7 @@ const Home = () => {
   
     <section className='home'>
         <div className='all-beers'>
-            <Link to={"/allbeers"}>
+            <Link to="/allbeers">
             <img src="../../public/images/Group4.png" alt="all-beers" />
             </Link>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime nihil vel in quis distinctio vitae. Aperiam, inventore repellat facilis id dolore modi asperiores, quod obcaecati nostrum hic at. Eius, cumque.</p>

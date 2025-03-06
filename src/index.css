@@ -28,12 +28,11 @@ nav {
 nav a {
     background-color: white;
     border-radius: 100%;
-    width: 8%;
+    width: 10%;
+    height: 8%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.logo {
-    width: 5vw;
+    text-decoration: none;
+    font-size: 5vw;
 }
