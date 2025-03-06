@@ -154,13 +154,12 @@ nav {
 nav a {
     background-color: white;
     border-radius: 100%;
-    width: 8%;
+    width: 10%;
+    height: 8%;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
+    font-size: 5vw;
 }
 
-.logo {
-    width: 5vw;
->>>>>>> cbb6c78dc664aef6d77ca21bf4747b2a3102ea1b
-}

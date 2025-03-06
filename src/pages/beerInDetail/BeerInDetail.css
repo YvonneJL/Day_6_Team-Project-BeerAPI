@@ -1,0 +1,42 @@
+.beer-detail-page {
+  margin: 5%;
+  display: flex;
+  flex-direction: row;
+  gap: 5vw;
+  align-items: center;
+}
+
+.beer-detail-page a {
+    color: white;
+    text-decoration: none;
+    background-color: #FFCA41;
+    padding: 3%;
+    border-radius: 100%;
+  }
+
+.image-container {
+    width: 200vw;
+}
+
+.beer-detail-page h1 {
+  font-size: 60px;
+}
+
+.tagline {
+    color: #FFCA41;
+    margin-top: 10px;
+}
+
+.first-brewed-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.first-brewed-div p {
+    font-weight: 300;
+}
+
+.detail-desc {
+    font-size: smaller;
+}
