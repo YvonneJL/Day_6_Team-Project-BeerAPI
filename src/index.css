@@ -1,8 +1,4 @@
-@font-face {
-<<<<<<< HEAD
-  font-family: 'RobotoSlab-Regular';
-  src: url('/fonts/RobotoSlab-Regular.ttf');
-}
+
 
 @font-face {
   font-family: 'RobotoSlab-Black';
@@ -124,9 +120,7 @@ hr {
   border: none;
   cursor: pointer;
   justify-content: center;
-=======
-    font-family: RobotoSlab;
-    src: url("../public/RobotoSlab-VariableFont_wght.ttf")
+
 }
 
 * {

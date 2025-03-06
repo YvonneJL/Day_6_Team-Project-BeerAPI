@@ -23,8 +23,7 @@ const RandomBeerLink = () => {
     const randomBeerId = getRandomId();
 
     return (
-        <Link to={`/beers/${randomBeerId}`}>
-            <img src="../../public/images/Group5.png" alt="Random Beer" />
+        <Link to={`/randombeer/${randomBeerId}`}>Hallo
         </Link>
     );
 }

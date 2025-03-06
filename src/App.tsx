@@ -1,17 +1,11 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, createBrowserRouter, createRoutesFromElements, Route, RouterProvider, Routes } from 'react-router-dom'
 import './App.css'
-<<<<<<< HEAD
-import Home from './pages/Home'
-import DetailsBeer from './pages/DetailsBeer'
-import "./index.css"
-
-function App() {
-
-=======
 import Home from './pages/home/Home'
 import Layout from './pages/Layout/Layout';
 import AllBeers from './pages/allbeers/AllBeers';
 import BeerInDetail from './pages/beerInDetail/BeerInDetail';
+import RandomBeerLink from './components/RandomBeerLink';
+import BeersList from './components/BeersList';
 
 function App() {
 
@@ -21,20 +15,13 @@ function App() {
         <Route index element={<Home/>}/>
         <Route path='/allbeers' element={<AllBeers/>}/>
         <Route path='/allbeers/:id' element={<BeerInDetail/>}/>
+        <Route path='/randombeer' element={<BeersList/>}/>
       </Route>
     )
   );
 
->>>>>>> cbb6c78dc664aef6d77ca21bf4747b2a3102ea1b
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path='/beers/:id' element={<DetailsBeer />} />
-        </Routes>
-      </BrowserRouter>
-    </>
+      <RouterProvider router={router}/>
   )
 }
 
