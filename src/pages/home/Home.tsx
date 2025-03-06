@@ -1,7 +1,6 @@
-import React from 'react'
-import allBeers from "../../public/images/allBeer.png";
-import randomBeer from "../../public/images/RandomBeer.png";
+
 import { Link } from 'react-router-dom';
+import "./Home.css"
 
 const Home = () => {
   return (
@@ -13,7 +12,7 @@ const Home = () => {
             </Link>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime nihil vel in quis distinctio vitae. Aperiam, inventore repellat facilis id dolore modi asperiores, quod obcaecati nostrum hic at. Eius, cumque.</p>
         </div>
-        <h1>HALLO</h1>
+
         <div className='random-beer'>
             <Link to={"/randombeer"}>
             <img src="../../public/images/Group5.png"alt="random beer" />

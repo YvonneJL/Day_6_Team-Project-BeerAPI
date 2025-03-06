@@ -1,0 +1,17 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10vh 10vw 10vh 10vw
+}
+
+img {
+    width: 100vw;
+    margin-bottom: 5vh;
+}
+
+p {
+    margin-bottom: 5vh;
+    font-size: larger;
+    font-weight: bold;
+}
