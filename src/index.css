@@ -1,4 +1,5 @@
 @font-face {
+<<<<<<< HEAD
   font-family: 'RobotoSlab-Regular';
   src: url('/fonts/RobotoSlab-Regular.ttf');
 }
@@ -123,4 +124,43 @@ hr {
   border: none;
   cursor: pointer;
   justify-content: center;
+=======
+    font-family: RobotoSlab;
+    src: url("../public/RobotoSlab-VariableFont_wght.ttf")
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: RobotoSlab;
+}
+
+img {
+    max-width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #FFCA41;
+    align-items: center;
+    padding: 2vh 1vw 1vh 2vw;
+}
+
+nav a {
+    background-color: white;
+    border-radius: 100%;
+    width: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 5vw;
+>>>>>>> cbb6c78dc664aef6d77ca21bf4747b2a3102ea1b
 }
