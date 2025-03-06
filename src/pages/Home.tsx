@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
+  
     <section className='home'>
         <div className='all-beers'>
             <Link to={"/allbeers"}>
@@ -12,6 +13,7 @@ const Home = () => {
             </Link>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime nihil vel in quis distinctio vitae. Aperiam, inventore repellat facilis id dolore modi asperiores, quod obcaecati nostrum hic at. Eius, cumque.</p>
         </div>
+        <h1>HALLO</h1>
         <div className='random-beer'>
             <Link to={"/randombeer"}>
             <img src="../../public/images/Group5.png"alt="random beer" />
