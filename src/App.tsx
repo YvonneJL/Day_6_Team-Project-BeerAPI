@@ -1,23 +1,21 @@
-
-import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import Home from './pages/Home'
+import DetailsBeer from './pages/DetailsBeer'
+import "./index.css"
 
 function App() {
 
-  const router = createBrowserRouter(
-    createRoutesFromElements(
-      <Route path="/" element={<Home />}>
-
-      </Route>
-    )
-  );
-
   return (
     <>
-      <RouterProvider router={router} />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path='/beers/:id' element={<DetailsBeer />} />
+        </Routes>
+      </BrowserRouter>
     </>
-  );
+  )
 }
 
 export default App

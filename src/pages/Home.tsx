@@ -1,26 +1,21 @@
-import React from 'react'
-import allBeers from "../../public/images/allBeer.png";
-import randomBeer from "../../public/images/RandomBeer.png";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
+import RandomBeerLink from "../components/RandomBeerLink";
 
 const Home = () => {
-  return (
-    <section className='home'>
-        <div className='all-beers'>
-            <Link to={"/allbeers"}>
-            <img src="../../public/images/Group4.png" alt="all-beers" />
-            </Link>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime nihil vel in quis distinctio vitae. Aperiam, inventore repellat facilis id dolore modi asperiores, quod obcaecati nostrum hic at. Eius, cumque.</p>
-        </div>
-        <div className='random-beer'>
-            <Link to={"/randombeer"}>
-            <img src="../../public/images/Group5.png"alt="random beer" />
-            </Link>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime nihil vel in quis distinctio vitae. Aperiam, inventore repellat facilis id dolore modi asperiores, quod obcaecati nostrum hic at. Eius, cumque.</p>
-        </div>
-
-    </section>
-  )
+    return (
+        <section className="home">
+            <div>
+                <Link to='/beers'>
+                    <img src="/img/allBeers.png" alt="" />
+                </Link>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, a, eleifend vitae varius venenatis. </p>
+            </div>
+            <div>
+                <RandomBeerLink />
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, a, eleifend vitae varius venenatis. </p>
+            </div>
+        </section>
+    );
 }
 
-export default Home
+export default Home;
