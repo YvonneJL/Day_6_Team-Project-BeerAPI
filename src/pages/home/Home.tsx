@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Home.css"
+import RandomBeerLink from "../../components/RandomBeerLink";
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <div>
             <Link to='/randombeer'>
                     <img src="../../../public/images/Group5.png" alt="" />
+                    <RandomBeerLink/>
                 </Link>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, a, eleifend vitae varius venenatis. </p>
             </div>

@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  max-width: 400px;
+  /* max-width: 400px; */
   margin: 0 auto;
   padding: 50px 2rem;
 }
@@ -121,16 +121,6 @@ hr {
   cursor: pointer;
   justify-content: center;
 
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-html {
-    font-family: RobotoSlab;
 }
 
 img {
